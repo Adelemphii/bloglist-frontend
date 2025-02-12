@@ -20,6 +20,7 @@ const Login = ({ onSubmit }) => {
         <div>
           username
           <input
+            data-testid='username'
             type='text'
             value={username}
             name='Username'
@@ -29,6 +30,7 @@ const Login = ({ onSubmit }) => {
         <div>
           password
           <input
+            data-testid='password'
             type='text'
             value={password}
             name='Password'

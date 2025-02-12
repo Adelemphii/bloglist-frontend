@@ -31,7 +31,7 @@ const Blog = ({ blog, onLike, onRemove, user }) => {
   }
 
   return (
-    <div style={blogStyle}>
+    <div style={blogStyle} className='blog'>
       <p style={paragraph}>
         <strong>{blog.title} by {blog.author}</strong>
         <button onClick={toggleVisibility} style={{ marginLeft: 10 }}>
